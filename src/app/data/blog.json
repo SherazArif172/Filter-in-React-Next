@@ -1,0 +1,37 @@
+[
+  {
+    "image": "/1722674209388_blog_pic_1.png",
+    "title": "Understanding JavaScript Closures",
+    "description": "A comprehensive guide to understanding closures in JavaScript and how they work.",
+    "read_more": "Read more",
+    "category": "Javascript"
+  },
+  {
+    "image": "/1722674301371_blog_pic_3.png",
+    "title": "Responsive Web Design with Tailwind CSS",
+    "description": "Learn how to create responsive web designs effortlessly using Tailwind CSS.",
+    "read_more": "Read more",
+    "category": "CSS"
+  },
+  {
+    "image": "/1722674331306_blog_pic_4.png",
+    "title": "Getting Started with React Hooks",
+    "description": "An introduction to React Hooks and how to use them in your React applications.",
+    "read_more": "Read more",
+    "category": "React"
+  },
+  {
+    "image": "/1722674361047_blog_pic_5.png",
+    "title": "Building a RESTful API with Laravel",
+    "description": "Step-by-step guide to building a RESTful API using Laravel.",
+    "read_more": "Read more",
+    "category": "PHP"
+  },
+  {
+    "image": "/1722674399445_blog_pic_7.png",
+    "title": "Building a RESTful API with Laravel",
+    "description": "Step-by-step guide to building a RESTful API using Laravel.",
+    "read_more": "Read more",
+    "category": "Html"
+  }
+]
