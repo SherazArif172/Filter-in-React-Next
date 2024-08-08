@@ -10,8 +10,8 @@ const Blog = () => {
   const [menue, setMenue] = useState("All");
   return (
     <div>
-      <div className="my-10">
-        <ul className="m-auto max-w-2xl flex gap-4  justify-center">
+      <div className="my-10 px-5">
+        <ul className="m-auto max-w-2xl flex gap-4  justify-center flex-wrap">
           <Button
             className={`" px-3 py-2 w-24 text-center  duration-500" ${
               menue === "All"
@@ -86,7 +86,7 @@ const Blog = () => {
           </Button>
         </ul>
       </div>
-      <div className="grid grid-cols-3 justify-center items-center gap-5">
+      <div className="grid md:grid-cols-3 grid-cols-1 justify-center items-center gap-5 px-4">
         {blog
           .filter((item) => (menue === "All" ? true : item.category === menue))
           .map((item, index) => (
@@ -99,6 +99,7 @@ const Blog = () => {
                 <Image
                   src={item.image}
                   fill
+                  alt="image"
                   className="object-cover w-full h-full hover:scale-110 duration-500"
                 />
               </div>
